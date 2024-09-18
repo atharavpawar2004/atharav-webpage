@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #e0e0e0, #e8a1a1ae); /* Light grayish-blue */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    font-weight: 900;
+    background-color: #2f4f4f; /* Dark slate gray */
+    color: #ffffff; /* White text */
+    border-bottom: 2px solid #e8e8e8;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul li {
+    margin: 1rem;
+    font-size: large;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff; /* White text */
+}
+
+.Developers {
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-left: auto;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.Search input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 20px;
+    outline: none;
+    margin-right: 0.5rem;
+    width: 100%;
+    max-width: 200px;
+}
+
+.Search i {
+    color: #2f4f4f; /* Dark slate gray */
+    cursor: pointer;
+}
+
+.User {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.User i {
+    margin-right: 0.5rem;
+}
+
+.container {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+    background: linear-gradient(to right, #e0e0e0, #ffffff); /* Light gray gradient */
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background: linear-gradient(to right, #e0e0e0, #ef4141ae);
+}
+
+.container .text {
+    max-width: 50%;
+}
+
+.container h1 {
+    font-size: 4rem;
+    color: #f2730a; /* Bright accent color */
+    margin-bottom: 1rem;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555; /* Dark gray */
+}
+
+.btn {
+    background-color: #f2730a;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ba5400;
+    color: #fff;
+}
+
+.Sushi img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.aboutUs {
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    background: linear-gradient(to right, #e0e0e0, #ffffff); /* Light gray gradient */
+    margin-top: 5rem;
+    border-radius: 10px;
+    background: linear-gradient(to right, #e0e0e0, #ef4141ae);
+}
+
+.aboutus img {
+    width: 150%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    margin-left: 20rem;
+}
+
+.about-text h2 {
+    font-size: 1.5rem;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #f2730a;
+    margin-bottom: 1rem;
+}
+
+.about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.about-text p {
+    max-width: 90%;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+.popular {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #333;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: center;
+    background: linear-gradient(to right, #e0e0e0, #ef4141ae);
+}
+
+.cardboard {
+    flex: 1 1 22%;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(146, 145, 81, 0.6);
+    max-width: 250px;
+    background-color: #ffffff; /* White card background */
+}
+
+.cardboard img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.span {
+    font-weight: 900;
+    color: #f2730a; /* Accent color */
+}
+
+.cardboard:hover {
+    box-shadow: 0 0 100px #ba5400;
+}
+
+.Newlyadded {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #e0e0e0, #ef4141ae); /* Light grayish-blue */
+    border-radius: 10px;
+}
+
+.new {
+    margin: 0; 
+    width: 60rem;
+}
+
+.new h2 {
+    font-family: 'Cedarville Cursive', cursive;
+    color: #f2730a;
+}
+
+.new h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #ba5400;
+}
+
+.new p {
+    max-width: 500px;
+    color: #555; /* Dark gray */
+}
+
+.Newly img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container, .aboutUs, .Newlyadded {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container .text, .about-text, .new {
+        margin: 0;
+    }
+
+    .about-text {
+        margin-top: 2rem;
+    }
+
+    .cardboard {
+        flex: 1 1 100%;
+        margin: 1rem 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .aboutUs {
+        flex-direction: row; /* Keep the text to the right on larger screens */
+    }
+
+    .about-text {
+        margin-left: 20rem; /* Maintain the original margin on large screens */
+    }
+}
